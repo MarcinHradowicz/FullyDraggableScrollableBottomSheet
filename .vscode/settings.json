@@ -1,0 +1,10 @@
+{
+  "dart.flutterSdkPath": "~/.asdf/installs/flutter/3.3.4-stable/bin",
+  "explorer.experimental.fileNesting.enabled": true,
+  "explorer.experimental.fileNesting.expand": false,
+  "explorer.experimental.fileNesting.patterns": {
+      "pubspec.yaml": ".flutter-plugins, .packages, .dart_tool, .flutter-plugins-dependencies, .metadata, .packages, pubspec.lock, build.yaml, analysis_options.yaml, all_lint_rules.yaml, environment_config.yaml, dart_test.yaml",
+      ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+      "*.dart": "$(capture).g.dart, $(capture).freezed.dart",
+  },
+}

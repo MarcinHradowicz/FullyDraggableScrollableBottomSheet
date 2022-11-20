@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build_models",
+        "type": "shell",
+        "command": "dart run lib/core/graphql/model_builder/model_builder.dart"
+      }
+    ]
+  }
+  
